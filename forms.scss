@@ -1,0 +1,56 @@
+button{
+    padding: 3px;
+    margin: 15px;
+    border: none;
+    width: 40%;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 4px 4px darkgreen;
+    background-color: rgb(217, 255, 217);
+    font-size: 14px;
+    &:hover{
+        background-color: #93ff93;
+        box-shadow: 2px 2px darkgreen;
+        font-weight: bold;
+    }
+    &.generate{
+        background-color: rgb(235, 248, 205);
+        font-size: 18px;
+        
+        &:hover{
+            background-color: #dbfa94;
+            font-weight: bold;
+            box-shadow: 2px 2px darkgreen;
+        }
+    }
+}
+
+
+input {
+    margin: 20px;
+    border-radius: 7px;
+    border: 4px dotted hsl(130, 40%, 45%);
+    background-color: #eaf86c;
+}
+
+h1{
+    color:#e2ffbc;
+    margin-left: 40px
+}
+
+h2{
+    margin-left:20px;
+    margin-bottom: none;
+    margin-top: 50px;
+    color: #415223;
+}
+
+#country-dest {
+    overflow-wrap: break-word;
+}
+
+.image{
+    max-width: 500px;
+    max-height: 400px;
+    height: auto;
+}

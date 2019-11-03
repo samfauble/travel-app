@@ -1,0 +1,86 @@
+
+//Page Layout
+body {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "h"
+        "d"
+        "m"
+        "f";
+}
+
+header {
+   grid-area: h;
+}
+
+div {
+    grid-area: d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    grid-area: m;
+    display: flex;
+    flex-direction: column;
+}
+
+#main-trav-info {
+    display:flex;
+    align-items: stretch;
+}
+
+#main-weather {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+footer {
+    grid-area: f;
+}
+
+
+
+//Media Queries
+@media(min-width: 900px) {
+    main {
+        height: auto;
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "img info"
+        "but weather";
+        align-items: stretch;
+    }
+
+
+    #main-image {
+        grid-area: img;
+        height: 400px;
+    }
+
+    #main-trav-info {
+        grid-area: info;
+        height: 400px;
+        display: flex;
+    }
+    
+    #main-buttons {
+        grid-area: but;
+        height: 200px;
+    }
+
+    #main-weather {
+        grid-area: weather;
+        height: 200px;
+    }
+
+}

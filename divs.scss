@@ -1,0 +1,29 @@
+$primary-color: #87e274;
+$secondary-color: rgb(128, 216, 110);
+$tertiary-color: rgb(98, 189, 80);
+
+main{ 
+    background-color: $primary-color;
+}
+
+#main-buttons{
+    background-color: $secondary-color;
+}
+
+#main-image{
+    background-color: $secondary-color;
+}
+
+#main-trav-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+header{
+    background-color: $tertiary-color;
+}
+
+footer{
+    background-color: $tertiary-color;
+}
