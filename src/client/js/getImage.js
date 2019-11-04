@@ -34,7 +34,7 @@ async function updateImg (img) {
     } 
     catch(error) {
         console.log("Unable to update!", error);
-        document.getElementById("image").setAttribute("src", "./src/client/media/sadFace.png")
+        document.getElementById("image").setAttribute("src", "./sadFace.png")
 
     }
 }
