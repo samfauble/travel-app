@@ -47,7 +47,8 @@ Below are the following things that need to be installed using the command line.
 
 
 
-**** Dependency names and npm scripts:
+Dependency names and npm scripts:
+------------------------------
 
 babel-loader        |   npm i -D @babel/core @babel/preset-env babel-loader
 
