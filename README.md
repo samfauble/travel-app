@@ -45,26 +45,38 @@ Below are the following things that need to be installed using the command line.
 3. Once it's finished installing, repeat step 1 and 2 until all dependencies have been installed:
 
 
-                         Use lines in this column in the command line:
-                            |
-                            |
-Dpendency:                   ----->   npm script:
+Dpendency:                      npm script:
 ----------------------------------------------------------------------
 babel-loader        |   npm i -D @babel/core @babel/preset-env babel-loader
+
 webpack                |   npm i webpack 
+
 webpack-cli            |   npm i webpack-cli
+
 webpack-dev-server     |   npm i webpack-dev-server
+
 sass-loader            |   npm i -D sass-loader node-sass
+
 css-loader             |   npm i -D css-loader
+
 style-loader           |   npm i -D style-loader
+
 jest                   |   npm install --save-dev jest-webpack
+
 html-loader            |   npm i html-loader
+
 file-loader            |   npm i file-loader                    
+
 babel-polyfill         |   npm i babel-polyfill
+
 html-webpack-plugin    |   npm i html-webpack-plugin
+
 mini-css-extract-plugin|   npm i mini-css-extract-plugin
+
 terser-webpack-plugin  |   npm i terser-webpack-plugin
+
 optimizeCssAssetsWebpackPlugin|   npm i optimize-css-assets-webpack-plugin
+
 workbox-webpack-plugin |   npm i workbox-webpack-plugin
 
 
