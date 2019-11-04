@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Planner</title>
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700|Ranga:400,700&display=swap" rel="stylesheet">
+</head>
+ <body>
+   <header>
+     <h1>My Travel Planner</h1>
+   </header>
+    <main>
+      <!--<div id="main-header" class="main-content">main header</div>-->
+      <div id="main-image" class="main-content">
+        <img id="image" class="image">
+         
+      </div>
+      <div id="main-trav-info" class="main-content">
+        <h2>Where do you want to go?</h2>
+        <input id="city" type="text" placeholder="City Name">
+        <button id="generate" class="generate">Find My Flight</button>
+        <div id="city-dest"></div>
+        <div id="country-dest"></div>
+      </div>
+      <div id="main-weather" class="main-content">
+        <div id="forecast"></div>
+        <div id="temp"></div>
+        <div id="flight"></div>
+      </div>
+      <div id="main-buttons" class="main-content">
+        <button class="xbutton">Make a Note</button>
+        <button class="xbutton">Set a Reminder</button>
+        <button class="xbutton">Remove a Flight</button>
+      </div>
+      <!--<div id="main-footer" class="main-content">main footer</div>-->
+    </main>
+  
+   <footer>
+     footer
+   </footer>
+</body>
+<script>
+  if("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("/service-worker.js");
+    });
+  }
+</script>
+</html>
