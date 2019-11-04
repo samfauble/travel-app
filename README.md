@@ -45,7 +45,7 @@ Below are the following things that need to be installed using the command line.
 3. Once it's finished installing, repeat step 1 and 2 until all dependencies have been installed:
 
 
-Dependency:                      npm script:
+#### Dependency:                      npm script:
 
 babel-loader        |   npm i -D @babel/core @babel/preset-env babel-loader
 
