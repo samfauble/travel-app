@@ -3,8 +3,14 @@
 ## Overview
 This project lets you type in a city/country name and then prints out the city, a picture of the city, the weather, and a message about flights to that city. All you need to do is type in a city and a country name. 
 
-- I incorporated an image for when there are no results for an image
-- Type in "Grand Marais" as an example of a city that has no image results 
+## Technologies used:
+- HTTP requests
+- Javascript
+- Three third-party APIs
+- Sass/CSS
+- webpack
+- HTML
+- Git
 
 ## Notes on the file structure
 - The index.js file is my entry point for webpack
@@ -12,6 +18,16 @@ This project lets you type in a city/country name and then prints out the city, 
 - I have three .scss files in the styles folder
 
 ## Instructions to Install
+#### Obtain API Keys
+In order for this app to work, API access to the following APIs is required:
+- Dark Sky API
+- Pixabay API
+- Geonames API
+
+Upon obtaining access to the above APIs:
+- Place the Pixabay API key in the getImage.js file in the specificed places
+- Place the Geonames username and Dark Sky API key in the getWeather.js file in the specified places
+
 #### Spin up the server
 To spin up the Express server 
 1. navigate the command prompt to the project repo folder (capstone-project-sub)
